@@ -95,6 +95,9 @@
       grid-column: span 2
     &__pay
       grid-column: 6 / 6
+  .modal
+    &__dialog
+      min-width: 478px
 @media (max-width: 768px)
   .container
     max-width: 576px
@@ -217,6 +220,10 @@
   .footer
     &__input
       flex-basis: 100%
+  .modal
+    &__button
+      width: 100%
+      margin-bottom: 15px
 @media (max-width: 576px)
   .logo
     width: 99px
@@ -298,3 +305,7 @@
       margin: 0
       grid-row: 9
       grid-column: 1
+  .modal
+    &__dialog
+      min-width: 320px
+      padding: 33px 30px
