@@ -1838,31 +1838,35 @@ template {
   .footer-wrapper {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    grid-row-gap: 30px;
+    grid-gap: 0;
   }
   .footer__logo {
     -ms-grid-row: 1;
     grid-row: 1;
     -ms-grid-column: 1;
     grid-column: 1;
+    margin-bottom: 30px;
   }
   .footer__social-network {
     -ms-grid-row: 2;
     grid-row: 2;
     -ms-grid-column: 1;
     grid-column: 1;
+    margin-bottom: 30px;
   }
   .footer__additional {
     -ms-grid-row: 3;
     grid-row: 3;
     -ms-grid-column: 1;
     grid-column: 1;
+    margin-bottom: 30px;
   }
   .footer__categories {
     -ms-grid-row: 4;
     grid-row: 4;
     -ms-grid-column: 1;
     grid-column: 1;
+    margin-bottom: 30px;
   }
   .footer__legal {
     margin: 0;
@@ -1870,6 +1874,7 @@ template {
     grid-row: 5;
     -ms-grid-column: 1;
     grid-column: 1;
+    margin-bottom: 30px;
   }
   .footer__contact-details {
     -ms-grid-row: 6;
@@ -1887,17 +1892,15 @@ template {
   .footer__info {
     display: block;
   }
+  .footer__button {
+    margin-bottom: 20px;
+  }
   .footer__policy {
-    width: 277px;
-    margin: 0;
-    padding: 0;
-    margin-top: 0;
+    margin-left: 0;
     -ms-grid-row: 8;
     grid-row: 8;
     -ms-grid-column: 1;
     grid-column: 1;
-    grid-row-gap: 0;
-    margin-bottom: 10px;
   }
   .footer__pay {
     margin: 0;
